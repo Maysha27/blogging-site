@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    text-align: left;
+}
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+/* Navigation styling */
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styling */
+.container {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+/* Add this to your existing CSS */
+.switch-panel {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.switch-panel a {
+    text-decoration: none;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 5px;
+}
+
+.switch-panel a:hover {
+    background-color: #45a049; /* Dark green background on hover */
+}
+ /* Style for the header */
+ header {
+    background: #333; /* Background color for the header */
+    padding: 10px 0;
+}
+
+/* Style for the logo and navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the logo */
+.logo {
+    flex: 1; /* Allow the logo to grow and take available space */
+}
+
+/* Style for the navigation links */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #ffffff;
+}
+
+.nav-list li {
+    margin-right: 20px; /* Adjust as needed to space out the links */
+}
+
+.nav-list li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+/* Style for the login/register links */
+.login-register a {
+    color: #ffffff; /* Text color for the login/register links */
+    margin-left: 20px; /* Adjust as needed to space out the links */
+    text-decoration: none; /* Remove underlines */
+}
